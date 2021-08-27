@@ -10,11 +10,26 @@
 		03AC3D0F26D94031005BF6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D0E26D94031005BF6E5 /* AppDelegate.swift */; };
 		03AC3D1126D94031005BF6E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D1026D94031005BF6E5 /* SceneDelegate.swift */; };
 		03AC3D1326D94031005BF6E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D1226D94031005BF6E5 /* ViewController.swift */; };
-		03AC3D1626D94031005BF6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D1426D94031005BF6E5 /* Main.storyboard */; };
 		03AC3D1826D94035005BF6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D1726D94035005BF6E5 /* Assets.xcassets */; };
 		03AC3D1B26D94035005BF6E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D1926D94035005BF6E5 /* LaunchScreen.storyboard */; };
 		03AC3D2626D94035005BF6E5 /* TheGallaryProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D2526D94035005BF6E5 /* TheGallaryProjectTests.swift */; };
 		03AC3D3126D94035005BF6E5 /* TheGallaryProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D3026D94035005BF6E5 /* TheGallaryProjectUITests.swift */; };
+		03AC3D4926D94366005BF6E5 /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D4826D94366005BF6E5 /* BarlowCondensed-ExtraLight.ttf */; };
+		03AC3D4E26D9437D005BF6E5 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D4D26D9437D005BF6E5 /* BarlowCondensed-Light.ttf */; };
+		03AC3D5326D943C8005BF6E5 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D5226D943C8005BF6E5 /* Barlow-ExtraLight.ttf */; };
+		03AC3D5826D943ED005BF6E5 /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D5726D943ED005BF6E5 /* BarlowCondensed-Medium.ttf */; };
+		03AC3D5D26D94444005BF6E5 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03AC3D5C26D94444005BF6E5 /* Barlow-Medium.ttf */; };
+		03AC3D6326D944CE005BF6E5 /* FontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D6226D944CE005BF6E5 /* FontConstants.swift */; };
+		03AC3D6D26D94832005BF6E5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D6A26D94832005BF6E5 /* UILabel+Ext.swift */; };
+		03AC3D6E26D94832005BF6E5 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D6B26D94832005BF6E5 /* UIButton+Ext.swift */; };
+		03AC3D6F26D94832005BF6E5 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D6C26D94832005BF6E5 /* UIImageView+Ext.swift */; };
+		03AC3D7726D94880005BF6E5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D7426D94880005BF6E5 /* BaseViewController.swift */; };
+		03AC3D7826D94880005BF6E5 /* HorizontalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D7526D94880005BF6E5 /* HorizontalStackView.swift */; };
+		03AC3D7926D94880005BF6E5 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D7626D94880005BF6E5 /* VerticalStackView.swift */; };
+		03AC3D8126D94935005BF6E5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D8026D94935005BF6E5 /* RegisterVC.swift */; };
+		03AC3D8926D9493E005BF6E5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D8826D9493E005BF6E5 /* RegisterView.swift */; };
+		03AC3D8F26D94A76005BF6E5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D8E26D94A76005BF6E5 /* ProfileVC.swift */; };
+		03AC3D9726D94A7F005BF6E5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D9626D94A7F005BF6E5 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +54,6 @@
 		03AC3D0E26D94031005BF6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AC3D1026D94031005BF6E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03AC3D1226D94031005BF6E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03AC3D1526D94031005BF6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03AC3D1726D94035005BF6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03AC3D1A26D94035005BF6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03AC3D1C26D94035005BF6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		03AC3D2C26D94035005BF6E5 /* TheGallaryProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheGallaryProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AC3D3026D94035005BF6E5 /* TheGallaryProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGallaryProjectUITests.swift; sourceTree = "<group>"; };
 		03AC3D3226D94035005BF6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AC3D4826D94366005BF6E5 /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		03AC3D4D26D9437D005BF6E5 /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+		03AC3D5226D943C8005BF6E5 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		03AC3D5726D943ED005BF6E5 /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		03AC3D5C26D94444005BF6E5 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		03AC3D6226D944CE005BF6E5 /* FontConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontConstants.swift; sourceTree = "<group>"; };
+		03AC3D6A26D94832005BF6E5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		03AC3D6B26D94832005BF6E5 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		03AC3D6C26D94832005BF6E5 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		03AC3D7426D94880005BF6E5 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		03AC3D7526D94880005BF6E5 /* HorizontalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStackView.swift; sourceTree = "<group>"; };
+		03AC3D7626D94880005BF6E5 /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		03AC3D8026D94935005BF6E5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		03AC3D8826D9493E005BF6E5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		03AC3D8E26D94A76005BF6E5 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		03AC3D9626D94A7F005BF6E5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +129,12 @@
 		03AC3D0D26D94031005BF6E5 /* TheGallaryProject */ = {
 			isa = PBXGroup;
 			children = (
+				03AC3D7D26D94903005BF6E5 /* Models */,
+				03AC3D4626D942F4005BF6E5 /* Resources */,
+				03AC3D4426D942D2005BF6E5 /* Uitils */,
 				03AC3D0E26D94031005BF6E5 /* AppDelegate.swift */,
 				03AC3D1026D94031005BF6E5 /* SceneDelegate.swift */,
 				03AC3D1226D94031005BF6E5 /* ViewController.swift */,
-				03AC3D1426D94031005BF6E5 /* Main.storyboard */,
-				03AC3D1726D94035005BF6E5 /* Assets.xcassets */,
 				03AC3D1926D94035005BF6E5 /* LaunchScreen.storyboard */,
 				03AC3D1C26D94035005BF6E5 /* Info.plist */,
 			);
@@ -126,6 +157,84 @@
 				03AC3D3226D94035005BF6E5 /* Info.plist */,
 			);
 			path = TheGallaryProjectUITests;
+			sourceTree = "<group>";
+		};
+		03AC3D4426D942D2005BF6E5 /* Uitils */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D7326D94868005BF6E5 /* CustomClasses */,
+				03AC3D6126D944A5005BF6E5 /* Extensions */,
+			);
+			path = Uitils;
+			sourceTree = "<group>";
+		};
+		03AC3D4626D942F4005BF6E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D4726D9433C005BF6E5 /* Fonts */,
+				03AC3D1726D94035005BF6E5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03AC3D4726D9433C005BF6E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D5C26D94444005BF6E5 /* Barlow-Medium.ttf */,
+				03AC3D5726D943ED005BF6E5 /* BarlowCondensed-Medium.ttf */,
+				03AC3D5226D943C8005BF6E5 /* Barlow-ExtraLight.ttf */,
+				03AC3D4D26D9437D005BF6E5 /* BarlowCondensed-Light.ttf */,
+				03AC3D4826D94366005BF6E5 /* BarlowCondensed-ExtraLight.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		03AC3D6126D944A5005BF6E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D6B26D94832005BF6E5 /* UIButton+Ext.swift */,
+				03AC3D6C26D94832005BF6E5 /* UIImageView+Ext.swift */,
+				03AC3D6A26D94832005BF6E5 /* UILabel+Ext.swift */,
+				03AC3D6226D944CE005BF6E5 /* FontConstants.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		03AC3D7326D94868005BF6E5 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D7426D94880005BF6E5 /* BaseViewController.swift */,
+				03AC3D7526D94880005BF6E5 /* HorizontalStackView.swift */,
+				03AC3D7626D94880005BF6E5 /* VerticalStackView.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		03AC3D7D26D94903005BF6E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D8D26D94A62005BF6E5 /* Profile */,
+				03AC3D7E26D9490D005BF6E5 /* Register */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03AC3D7E26D9490D005BF6E5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D8026D94935005BF6E5 /* RegisterVC.swift */,
+				03AC3D8826D9493E005BF6E5 /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		03AC3D8D26D94A62005BF6E5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				03AC3D8E26D94A76005BF6E5 /* ProfileVC.swift */,
+				03AC3D9626D94A7F005BF6E5 /* ProfileView.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +340,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AC3D5826D943ED005BF6E5 /* BarlowCondensed-Medium.ttf in Resources */,
+				03AC3D5326D943C8005BF6E5 /* Barlow-ExtraLight.ttf in Resources */,
+				03AC3D5D26D94444005BF6E5 /* Barlow-Medium.ttf in Resources */,
+				03AC3D4E26D9437D005BF6E5 /* BarlowCondensed-Light.ttf in Resources */,
+				03AC3D4926D94366005BF6E5 /* BarlowCondensed-ExtraLight.ttf in Resources */,
 				03AC3D1B26D94035005BF6E5 /* LaunchScreen.storyboard in Resources */,
 				03AC3D1826D94035005BF6E5 /* Assets.xcassets in Resources */,
-				03AC3D1626D94031005BF6E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +373,18 @@
 			files = (
 				03AC3D1326D94031005BF6E5 /* ViewController.swift in Sources */,
 				03AC3D0F26D94031005BF6E5 /* AppDelegate.swift in Sources */,
+				03AC3D6326D944CE005BF6E5 /* FontConstants.swift in Sources */,
 				03AC3D1126D94031005BF6E5 /* SceneDelegate.swift in Sources */,
+				03AC3D8126D94935005BF6E5 /* RegisterVC.swift in Sources */,
+				03AC3D6D26D94832005BF6E5 /* UILabel+Ext.swift in Sources */,
+				03AC3D7726D94880005BF6E5 /* BaseViewController.swift in Sources */,
+				03AC3D7826D94880005BF6E5 /* HorizontalStackView.swift in Sources */,
+				03AC3D8F26D94A76005BF6E5 /* ProfileVC.swift in Sources */,
+				03AC3D6E26D94832005BF6E5 /* UIButton+Ext.swift in Sources */,
+				03AC3D8926D9493E005BF6E5 /* RegisterView.swift in Sources */,
+				03AC3D6F26D94832005BF6E5 /* UIImageView+Ext.swift in Sources */,
+				03AC3D9726D94A7F005BF6E5 /* ProfileView.swift in Sources */,
+				03AC3D7926D94880005BF6E5 /* VerticalStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +420,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03AC3D1426D94031005BF6E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03AC3D1526D94031005BF6E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03AC3D1926D94035005BF6E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.binaryveda.TheGallaryProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.binaryveda.TheGallaryProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
