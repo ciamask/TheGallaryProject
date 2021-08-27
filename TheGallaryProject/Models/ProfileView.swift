@@ -11,7 +11,7 @@ class ProfileView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .white
+        backgroundColor = AppColor.appWhite
     }
     
     required init?(coder: NSCoder) {
