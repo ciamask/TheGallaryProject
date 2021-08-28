@@ -14,4 +14,5 @@ enum AppColor {
     static let appBlue = #colorLiteral(red: 0.3411764706, green: 0.4823529412, blue: 0.8745098039, alpha: 1)
     static let textGray = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.49)
     static let greyWhite = #colorLiteral(red: 0.8470588235, green: 0.8470588235, blue: 0.8470588235, alpha: 1)
+    static let warmGrey = #colorLiteral(red: 0.5294117647, green: 0.5294117647, blue: 0.5294117647, alpha: 1)
 }

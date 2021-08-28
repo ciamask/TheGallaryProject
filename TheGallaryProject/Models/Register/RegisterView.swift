@@ -123,7 +123,7 @@ class RegisterView: UIView {
         line2.constraintHeight(constant: 2)
         
         contentView.addSubview(copyrightStack)
-        copyrightStack.anchor(top: line2.bottomAnchor, leading: nil, bottom: contentView.bottomAnchor, trailing: nil, padding: .init(top: 23, left: 0, bottom: 0, right: 0))
+        copyrightStack.anchor(top: line2.bottomAnchor, leading: nil, bottom: contentView.bottomAnchor, trailing: nil, padding: .init(top: 23, left: 0, bottom: 10, right: 0))
         copyrightStack.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
     }
     

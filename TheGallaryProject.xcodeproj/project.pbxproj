@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038AB99A26DA36C600AFE6A0 /* GPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB99926DA36C600AFE6A0 /* GPButton.swift */; };
+		038AB99F26DA51E100AFE6A0 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB99E26DA51E100AFE6A0 /* ProfileModel.swift */; };
+		038AB9A426DA525800AFE6A0 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB9A326DA525800AFE6A0 /* PhotosCell.swift */; };
 		03AC3D0F26D94031005BF6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D0E26D94031005BF6E5 /* AppDelegate.swift */; };
 		03AC3D1126D94031005BF6E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D1026D94031005BF6E5 /* SceneDelegate.swift */; };
 		03AC3D1326D94031005BF6E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC3D1226D94031005BF6E5 /* ViewController.swift */; };
@@ -53,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038AB99926DA36C600AFE6A0 /* GPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPButton.swift; sourceTree = "<group>"; };
+		038AB99E26DA51E100AFE6A0 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		038AB9A326DA525800AFE6A0 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
 		03AC3D0B26D94031005BF6E5 /* TheGallaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGallaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AC3D0E26D94031005BF6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AC3D1026D94031005BF6E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +221,7 @@
 				03AC3D7526D94880005BF6E5 /* HorizontalStackView.swift */,
 				03AC3D7626D94880005BF6E5 /* VerticalStackView.swift */,
 				03AC3DA526D9587F005BF6E5 /* DetailView.swift */,
+				038AB99926DA36C600AFE6A0 /* GPButton.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -242,6 +249,8 @@
 			children = (
 				03AC3D8E26D94A76005BF6E5 /* ProfileVC.swift */,
 				03AC3D9626D94A7F005BF6E5 /* ProfileView.swift */,
+				038AB99E26DA51E100AFE6A0 /* ProfileModel.swift */,
+				038AB9A326DA525800AFE6A0 /* PhotosCell.swift */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -382,10 +391,13 @@
 			files = (
 				03AC3D1326D94031005BF6E5 /* ViewController.swift in Sources */,
 				03AC3D0F26D94031005BF6E5 /* AppDelegate.swift in Sources */,
+				038AB99A26DA36C600AFE6A0 /* GPButton.swift in Sources */,
 				03AC3DA626D9587F005BF6E5 /* DetailView.swift in Sources */,
+				038AB99F26DA51E100AFE6A0 /* ProfileModel.swift in Sources */,
 				03AC3DA126D95094005BF6E5 /* UIAnchor+Ext.swift in Sources */,
 				03AC3D6326D944CE005BF6E5 /* FontConstants.swift in Sources */,
 				03AC3D1126D94031005BF6E5 /* SceneDelegate.swift in Sources */,
+				038AB9A426DA525800AFE6A0 /* PhotosCell.swift in Sources */,
 				03AC3D8126D94935005BF6E5 /* RegisterVC.swift in Sources */,
 				03AC3D6D26D94832005BF6E5 /* UILabel+Ext.swift in Sources */,
 				03AC3D7726D94880005BF6E5 /* BaseViewController.swift in Sources */,
