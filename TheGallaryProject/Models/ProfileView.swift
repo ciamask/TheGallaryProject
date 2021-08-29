@@ -51,6 +51,7 @@ class ProfileView: UIView {
         let layout = UICollectionViewFlowLayout()
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collection.backgroundColor = AppColor.appWhite
+        collection.isScrollEnabled = false
         return collection
     }()
     
